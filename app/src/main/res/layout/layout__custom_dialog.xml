@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:text="Cài đặt"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        android:background="#005d35"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:hint="URL"
+            android:id="@+id/url"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:hint="SheetID"
+            android:id="@+id/sheetID"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:text="Thiết lập"
+            android:textColor="@android:color/white"
+            android:background="#d83e3d"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
